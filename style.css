@@ -1,0 +1,26 @@
+.chatbox {
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+#messages {
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+}
+
+button {
+  width: 25%;
+  padding: 8px;
+}
