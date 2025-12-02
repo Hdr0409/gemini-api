@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // API KEY
-const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+const genAI = new GoogleGenerativeAI("AIzaSyAE4eQbhLirkZcs3V9S1eKyYN-knMeKUK8");
 
 app.post("/chat", async (req, res) => {
   try {
