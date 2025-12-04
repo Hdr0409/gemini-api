@@ -8,7 +8,6 @@ app.use(express.json());
 
 // API KEY
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
-
 app.post("/chat", async (req, res) => {
   try {
     const { message } = req.body;
